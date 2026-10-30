@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+        name="description"
+        content="Contacta con ChocoManía para resolver tus dudas, sugerencias o consultas sobre nuestros chocolates."
+    />
+    <title>Contáctenos | ChocoManía</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="contactos.css" />
+    <script src="contactos.js" defer></script>
+</head>
+<body>
+    <header class="topbar">
+        <a class="marca" href="index.html" aria-label="ChocoManía, inicio">
+            <img src="chocomania.jpeg" alt="Logo de ChocoManía" />
+        </a>
+
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contactos.html" aria-current="page">Contáctanos</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-actions">
+            <button class="buscar" type="button" aria-label="Abrir buscador">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <a class="carrito" href="tienda.html" aria-label="Ir a la tienda">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+        </div>
+    </header>
+
+    <main class="page">
+        <section class="portada">
+            <div class="presentacion animacion-entrada">
+                <p class="subtitulo">Estamos aquí para ti</p>
+                <h1>¡Nos encanta escucharte!</h1>
+                <p>
+                    ¿Tienes alguna duda, sugerencia o consulta?
+                    En ChocoManía queremos conocer tu opinión.
+                </p>
+                <p>Escríbenos y con gusto te ayudaremos.</p>
+            </div>
+
+            <div class="imagen-inicio animacion-entrada">
+                <img src="chocolate-principal.jpeg" alt="Selección de chocolates de ChocoManía" />
+            </div>
+        </section>
+
+        <section class="como-pedir">
+            <h2 class="animacion-entrada">¿Cómo podemos ayudarte?</h2>
+
+            <p class="animacion-entrada">
+                Elige la forma de contacto que te resulte más cómoda o envíanos un
+                mensaje mediante el formulario.
+            </p>
+
+            <div class="pasos-pedido">
+                <article class="paso animacion-entrada">
+                    <span class="icono" aria-hidden="true"><i class="fa-regular fa-comments"></i></span>
+                    <div class="txt-paso">
+                        <h3>Consulta rápida</h3>
+                        <p>Respondemos tus dudas en poco tiempo.</p>
+                    </div>
+                </article>
+
+                <article class="paso animacion-entrada">
+                    <span class="icono" aria-hidden="true"><i class="fa-regular fa-lightbulb"></i></span>
+                    <div class="txt-paso">
+                        <h3>Sugerencias</h3>
+                        <p>Queremos escuchar tus ideas y mejorar.</p>
+                    </div>
+                </article>
+
+                <article class="paso animacion-entrada">
+                    <span class="icono" aria-hidden="true"><i class="fa-solid fa-heart"></i></span>
+                    <div class="txt-paso">
+                        <h3>Atención cercana</h3>
+                        <p>Te apoyamos con una atención más personalizada.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="seccion-formulario">
+            <div class="formulario-pedido animacion-entrada">
+                <h2>Envíanos un mensaje</h2>
+
+                <p class="texto-formulario">
+                    Completa los siguientes campos y cuéntanos cómo podemos ayudarte.
+                </p>
+
+                <form id="formularioContacto" novalidate>
+                    <div class="grupo-input">
+                        <label for="nombre">Nombre</label>
+                        <input id="nombre" type="text" name="nombre" placeholder="Tu nombre" required />
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="email">Correo</label>
+                        <input id="email" type="email" name="email" placeholder="tuemail@ejemplo.com" required />
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="motivo">Motivo</label>
+                        <select id="motivo" name="motivo" required>
+                            <option value="">Selecciona una opción</option>
+                            <option value="consulta">Consulta</option>
+                            <option value="sugerencia">Sugerencia</option>
+                            <option value="pedido">Pedido</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <aside class="informacion-pedido animacion-entrada">
+                <h2>También puedes encontrarnos aquí</h2>
+
+                <div class="info-contacto">
+                    <a class="info" href="https://wa.me/593981088226" target="_blank" rel="noopener noreferrer">
+                        <div class="icono"><i class="fa-brands fa-whatsapp"></i></div>
+                        <div class="texto">
+                            <h3>WhatsApp</h3>
+                            <p>+593 981 088 226</p>
+                        </div>
+                    </a>
+
+                    <a class="info" href="https://www.instagram.com/chocopmania_1/" target="_blank" rel="noopener noreferrer">
+                        <div class="icono"><i class="fa-brands fa-instagram"></i></div>
+                        <div class="texto">
+                            <h3>Instagram</h3>
+                            <p>@chocomania</p>
+                        </div>
+                    </a>
+
+                    <a class="info" href="https://www.tiktok.com/@chocopmania_1" target="_blank" rel="noopener noreferrer">
+                        <div class="icono"><i class="fa-brands fa-tiktok"></i></div>
+                        <div class="texto">
+                            <h3>TikTok</h3>
+                            <p>@chocomania</p>
+                        </div>
+                    </a>
+                </div>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <div class="tema">
+            <h3>ChocoManía ♡</h3>
+
+            <div>
+                <span aria-hidden="true"></span>
+                <div class="frase">
+                    <p>Un toque de felicidad en cada bocado</p>
+                </div>
+                <span aria-hidden="true"></span>
+            </div>
+        </div>
+
+        <p class="copyright">© ChocoManía. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

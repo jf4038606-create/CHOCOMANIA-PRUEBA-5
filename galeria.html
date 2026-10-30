@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galería | ChocoManía</title>
+
+  <link rel="stylesheet" href="galeria.css" />
+  <script src="galeria.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="marca" href="index.html" aria-label="ChocoManía">
+      <img src="chocomania.jpeg" alt="Logo ChocoManía" />
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contactos.html">Contáctenos</a></li>
+        <li><a href="galeria.html" class="active">Galería</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="buscar" type="button" aria-label="Buscar">⌕</button>
+      <button class="carrito" type="button" aria-label="Ir a la tienda">🛒</button>
+    </div>
+  </header>
+
+  <section class="hero reveal">
+    <div class="hero-text">
+      <p class="eyebrow">ChocoManía</p>
+      <h1>Galería</h1>
+      <p class="lead">Nuestros videos, una dulce experiencia.</p>
+      <p>
+        Descubre el mundo de ChocoManía a través de nuestros videos.
+        Conoce más sobre nuestros productos, recetas, proceso y momentos especiales.
+      </p>
+    </div>
+
+    <div class="hero-media">
+      <video controls preload="metadata" poster="chocolate-publicidad.jpeg">
+        <source src="video-publicitario.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <main class="galeria">
+    <div class="encabezado-galeria reveal">
+      <h2>Descubre ChocoManía</h2>
+      <p>Explora nuestros productos, recetas, procesos y momentos especiales.</p>
+    </div>
+
+
+    <div class="galeria-videos">
+      <article class="video-card reveal" data-categoria="proceso">
+        <div class="video-imagen">
+          <video class="video-proceso">
+            <source src="video-del-proceso.mp4"  type="video/mp4">
+            Tu navegador no soporta el video
+          </video>
+          <button class="boton-play" type="button" aria-label="Reproducir video">▶</button>
+          <span class="duracion">02:00</span>
+        </div>
+        <div class="video-info">
+          <h3>El arte de crear chocolate</h3>
+          <p>El proceso de elaboración de los chocolates, los mejores chocolates de Guayaquil.</p>
+          <span class="corazon" aria-label="Añadir a favoritos">♥</span>
+        </div>
+      </article>
+
+      <article class="video-card reveal" data-categoria="decoracion">
+        <div class="video-imagen">
+          <video class="decoracion-productos">
+              <source src="decoracion-de-productos.mp4" type="video/mp4">
+              Tu navegador no soporta el video
+          </video>
+          <button class="boton-play" type="button" aria-label="Reproducir video">▶</button>
+          <span class="duracion">01:25</span>
+        </div>
+        <div class="video-info">
+          <h3>Decoración de los chocolates</h3>
+          <p>La decoración y los detalles que hacen especiales a los productos.</p>
+          <span class="corazon" aria-label="Añadir a favoritos">♥</span>
+        </div>
+      </article>
+
+      <article class="video-card reveal" data-categoria="presentacion">
+        <div class="video-imagen">
+          <video class="producto-final">
+            <source src="producto-finalizado.mp4" type="video/mp4">
+            Tu navegador no soporta el video
+          </video>
+          <button class="boton-play" type="button" aria-label="Reproducir video">▶</button>
+          <span class="duracion">01:00</span>
+        </div>
+        <div class="video-info">
+          <h3>El resultado final</h3>
+          <p>Los chocolates terminados y listos para disfrutar.</p>
+          <span class="corazon" aria-label="Añadir a favoritos">♥</span>
+        </div>
+      </article>
+
+      <article class="video-card reveal" data-categoria="detras">
+        <div class="video-imagen">
+          <video class="detras-camaras" >
+            <source src="detras-camaras.mp4" type="video/mp4">
+            Tu navegador no soporta el video
+          </video>
+          <button class="boton-play" type="button" aria-label="Reproducir video">▶</button>
+          <span class="duracion">01:20</span>
+        </div>
+        <div class="video-info">
+          <h3>Detrás de cámaras</h3>
+          <p>Los momentos divertidos que ocurren mientras elaboran los chocolates.</p>
+          <span class="corazon" aria-label="Añadir a favoritos">♥</span>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer reveal">
+    <div class="tema">
+      <h3>ChocoManía ♡</h3>
+      <div class="footer-line">
+        <span></span>
+        <p>Un toque de felicidad en cada bocado</p>
+        <span></span>
+      </div>
+    </div>
+
+    <div class="redes">
+      <a href="https://wa.me/593981088226" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://www.instagram.com/chocopmania_1/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.tiktok.com/@chocopmania_1" target="_blank" rel="noopener noreferrer">TikTok</a>
+    </div>
+  </footer>
+</body>
+</html>

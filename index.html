@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ChocoManía</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a href="index.html" class="marca" aria-label="ChocoManía">
+      <img src="chocomania.jpeg" alt="Logo de ChocoManía" />
+    </a>
+
+    <nav class="main-nav" aria-label="Navegación principal">
+      <ul>
+        <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="contactos.html">Contáctenos</a></li>
+        <li><a href="galeria.html">Galería</a></li>
+        <li><a href="tienda.html">Tienda</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <button class="buscar" type="button" aria-label="Abrir buscador" aria-expanded="false">⌕</button>
+      <button class="carrito" type="button" aria-label="Ir a la tienda">🛒</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="inicio">
+      <div class="parrafo-inicio">
+        <p class="eyebrow">ChocoManía</p>
+        <h1>Un toque de felicidad <span>en cada bocado</span></h1>
+        <p>
+          En ChocoManía, cada chocolate está hecho con amor para endulzar tus momentos especiales.
+        </p>
+      </div>
+
+      <div class="imagen-inicio">
+        <img src="chocolate-principal.jpg" alt="Selección de chocolates de ChocoManía" />
+      </div>
+    </section>
+
+    <section class="caracteristicas-principales" aria-label="Ventajas de ChocoManía">
+      <div>
+        <span aria-hidden="true">★</span>
+        <p>Ingredientes de calidad</p>
+      </div>
+
+      <div>
+        <span aria-hidden="true">♥</span>
+        <p>Hechos con amor</p>
+      </div>
+
+      <div>
+        <span aria-hidden="true">🚚</span>
+        <p>Envíos a toda la ciudad</p>
+      </div>
+
+      <div>
+        <span aria-hidden="true">🔒</span>
+        <p>Compra segura</p>
+      </div>
+    </section>
+
+    <section class="productos" aria-labelledby="titulo-productos">
+      <h2 id="titulo-productos">Nuestros productos</h2>
+
+      <article class="producto-card">
+        <img src="tabletas.jpg" alt="Tabletas de chocolate" />
+        <div class="producto-overlay">
+          <h3>Tabletas</h3>
+        </div>
+      </article>
+
+      <article class="producto-card">
+        <img src="bombones.jpg" alt="Bombones de chocolate" />
+        <div class="producto-overlay dark">
+          <h3>Bombones</h3>
+        </div>
+      </article>
+
+      <article class="producto-card">
+        <img src="fresas.png" alt="Fresas cubiertas de chocolate" />
+        <div class="producto-overlay">
+          <h3>Fresas cubiertas</h3>
+        </div>
+      </article>
+
+      <article class="producto-card">
+        <img src="postres.jpg" alt="Postres de chocolate" />
+        <div class="producto-overlay dark">
+          <h3>Postres</h3>
+        </div>
+      </article>
+    </section>
+
+    <section class="destacados" aria-labelledby="titulo-destacados">
+      <div class="titulo-destacados">
+        <span class="etiqueta-choco">Nuestros favoritos</span>
+        <h2 id="titulo-destacados">Los favoritos de ChocoManía</h2>
+        <p>
+          Descubre algunos de nuestros dulces favoritos, preparados para convertir cualquier momento
+          en algo especial.
+        </p>
+      </div>
+
+      <div class="contenedor-destacados">
+        <article class="producto-destacado">
+          <img src="tabletas-de-chocolate.jpg" alt="Tableta de chocolate" />
+          <div class="info-destacado">
+            <h3>Tableta de chocolate</h3>
+            <p>Delicioso chocolate para disfrutar en cualquier momento.</p>
+            <span class="precio-destacado">$3.00</span>
+            <a href="tienda.html" class="boton-choco">Ver producto</a>
+          </div>
+        </article>
+
+        <article class="producto-destacado">
+          <img src="bombones-de-chocolate-especiales.jpg" alt="Caja de bombones" />
+          <div class="info-destacado">
+            <h3>Bombones especiales</h3>
+            <p>Pequeños bocados de chocolate ideales para compartir.</p>
+            <span class="precio-destacado">$5.00</span>
+            <a href="tienda.html" class="boton-choco">Ver producto</a>
+          </div>
+        </article>
+
+        <article class="producto-destacado">
+          <img src="fresas-cubi.jpg" alt="Fresas cubiertas de chocolate" />
+          <div class="info-destacado">
+            <h3>Fresas cubiertas</h3>
+            <p>Una combinación deliciosa de fresas y chocolate.</p>
+            <span class="precio-destacado">$4.00</span>
+            <a href="tienda.html" class="boton-choco">Ver producto</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="promocion" aria-labelledby="titulo-promocion">
+      <div class="contenido-promocion">
+        <span class="etiqueta-promocion">Un regalo lleno de dulzura</span>
+        <h2 id="titulo-promocion">Regala momentos dulces</h2>
+        <p>
+          Sorprende a las personas que más quieres con deliciosos chocolates y detalles especiales
+          de ChocoManía.
+        </p>
+        <a href="tienda.html" class="boton-promocion">Descubre nuestros productos →</a>
+      </div>
+
+      <div class="imagen-promocion">
+        <img src="choco-espe.jpg" alt="Chocolates especiales para regalar" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="tema">
+      <h3>ChocoManía ♡</h3>
+    </div>
+
+    <div class="frase">
+      <p>Un toque de felicidad en cada bocado</p>
+    </div>
+
+    <div class="redes" aria-label="Redes sociales">
+      <a href="https://wa.me/593981088226" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://www.instagram.com/chocopmania_1/" target="_blank" rel="noopener noreferrer">Instagram</a>
+      <a href="https://www.tiktok.com/@chocopmania_1" target="_blank" rel="noopener noreferrer">TikTok</a>
+    </div>
+  </footer>
+</body>
+</html>

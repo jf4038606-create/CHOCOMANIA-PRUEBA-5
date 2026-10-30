@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda | ChocoManía</title>
+    <link rel="stylesheet" href="tienda.css">
+    <script src="tienda.js" defer ></script>
+</head>
+<body>
+
+    <header>
+        <div class="marca">
+            <img src="chocomania.jpeg" alt="Logo ChocoManía">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="nosotros.html">Nosotros</a>
+                </li>
+                <li>
+                    <a href="contactos.html">Contáctenos</a>
+                </li>
+                <li>
+                    <a href="galeria.html">Galería</a>
+                </li>
+                <li>
+                    <a href="tienda.html">Tienda</a>
+                </li>
+            </ul>
+        </nav>
+        <span class="buscar">⌕</span>
+        <span class="carrito">🛒</span>
+    </header>
+
+    <section class="parte-inicio">
+        <div class="categorias">
+            <h1>Nuestra tienda</h1>
+            <p>
+                Descubre nuestros deliciosos productos
+                y encuentra tu chocolate favorito.
+            </p>
+        </div>
+        <div class="imagen-inicio">
+            <img
+                src="producto-tienda.png"
+                alt="Chocolates ChocoManía">
+        </div>
+    </section>
+
+
+    <main>
+
+        <section class="tienda">
+            <div class="titulo-tienda">
+                <h2>Delicias ChocoManía</h2>
+                <p>
+                    Elige tus favoritos y disfruta
+                    un toque de felicidad en cada bocado.
+                </p>
+            </div>
+
+            <div class="lista-productos">
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="tabletas-chocolate.jpg"
+                            alt="Tabletas de chocolate">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Tabletas</h3>
+                        <p>
+                            Chocolate artesanal en diferentes
+                            presentaciones.
+                        </p>
+                        <span class="precio">
+                            Desde $2.50
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Tabletas">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="bombon.jpg"
+                            alt="Bombones de chocolate">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Bombones</h3>
+                        <p>
+                            Rellenos de los mejores sabores
+                            para disfrutar.
+                        </p>
+                        <span class="precio">
+                            Desde $3.50
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Bombones">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="fresas.jpg"
+                            alt="Fresas cubiertas de chocolate">
+                    </div>
+
+                    <div class="contenido-producto">
+                        <h3>Fresas cubiertas</h3>
+                        <p>
+                            La combinación perfecta entre
+                            fruta y chocolate.
+                        </p>
+                        <span class="precio">
+                            Desde $5.00
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Fresas cubiertas">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="postres.jpg"
+                            alt="Postres de chocolate">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Postres</h3>
+                        <p>
+                            Dulces momentos en cada
+                            cucharada.
+                        </p>
+                        <span class="precio">
+                            Desde $3.00
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Postres">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="galletas.jpg"
+                            alt="Galletas de chocolate">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Galletas de chocolate</h3>
+                        <p>
+                            Crujientes por fuera y suaves
+                            por dentro.
+                        </p>
+                        <span class="precio">
+                            Desde $4.00
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Galletas de chocolate">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="chocopolvo.jpg"
+                            alt="Chocolate en polvo">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Chocolate en polvo</h3>
+                        <p>
+                            Ideal para tus bebidas y
+                            recetas favoritas.
+                        </p>
+                        <span class="precio">
+                            $3.00
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Chocolate en polvo">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="chocoleche.jpg"
+                            alt="Chocolate con leche">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Chocolates con leche</h3>
+                        <p>
+                            Suaves, cremosos y deliciosos.
+                        </p>
+                        <span class="precio">
+                            $2.50
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Chocolates con leche">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+
+                <article class="producto">
+                    <div class="imagen-producto">
+                        <img
+                            src="cajas.jpg"
+                            alt="Cajas especiales de chocolate">
+                    </div>
+                    <div class="contenido-producto">
+                        <h3>Cajas especiales</h3>
+                        <p>
+                            Perfectas para regalar en
+                            cualquier ocasión.
+                        </p>
+                        <span class="precio">
+                            Desde $10.00
+                        </span>
+                        <button
+                            class="agregar-carrito"
+                            data-producto="Cajas especiales">
+                            Agregar al carrito
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="tema">
+            <h3>ChocoManía ♡</h3>
+            <div>
+                <span></span>
+                <div class="frase">
+                    <p>
+                        Un toque de felicidad en cada bocado
+                    </p>
+                </div>
+                <span></span>
+            </div>
+        </div>
+        
+        <div class="redes">
+    <a href="https://wa.me/593981088226" target="_blank" rel="noopener noreferrer">
+        WhatsApp
+    </a>
+
+    <a href="https://www.instagram.com/chocopmania_1/" target="_blank" rel="noopener noreferrer">
+        Instagram
+    </a>
+
+    <a href="https://www.tiktok.com/@chocopmania_1" target="_blank" rel="noopener noreferrer">
+        TikTok
+    </a>
+</div>
+    </footer>
+
+</body>
+</html>
